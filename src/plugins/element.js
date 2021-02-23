@@ -4,13 +4,14 @@ import Vue from 'vue'
 // import {Input} from 'element-ui'
 // 导入弹框提示组件 Message
 import { Button,
-     Form, 
-     FormItem, 
-     Input, 
-     Message, 
-     Container, 
-     Header, 
-     Aside, 
+    //  Icon,
+     Form,
+     FormItem,
+     Input,
+     Message,
+     Container,
+     Header,
+     Aside,
      Main,
      Menu,
      Submenu,
@@ -27,10 +28,16 @@ import { Button,
      Tooltip,
      Pagination,
      Dialog,
-     MessageBox
+     MessageBox,
+     Tag,
+     Tree,
+     Select,
+     Option,
+     Cascader
     } from 'element-ui'
 
 Vue.use(Button)
+// Vue.use(Icon)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
@@ -53,6 +60,18 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Cascader)
+
+
+
+
+
+
+
 
 
 // 导入弹框提示组件 Message
