@@ -73,7 +73,7 @@
             <el-button
               type="warning"
               icon="el-icon-setting"
-              size="mini" @click="setRole(scope.row)">  
+              size="mini" @click="setRole(scope.row)">
             </el-button>
           </el-tooltip>
           </template>
@@ -409,10 +409,10 @@ export default {
       this.getUserList()
       this.setRoleDialogVisible = false
     }
-    
+
   },
 };
-</script> 
+</script>
 
 <style lang="less" scoped>
-</style> 
+</style>
