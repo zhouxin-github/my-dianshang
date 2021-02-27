@@ -97,13 +97,14 @@
     </el-dialog>
     <!-- 查询物流对话框 -->
     <el-dialog title="提示" :visible.sync="findDialogVisible" width="50%">
+      <span> 物流信息...</span>
       <el-timeline>
         <el-timeline-item
           v-for="(activity, index) in progressInfo"
           :key="index"
           :timestamp="activity.time"
         >
-          {{ activity.context }}
+         {{ activity.context }}
         </el-timeline-item>
       </el-timeline>
     </el-dialog>
